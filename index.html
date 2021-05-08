@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Web site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+
+<body onload='document.validation.email.focus()'>
+
+  
+        <div class="bgbase"></div>
+        <div class="bgimg"></div>
+    
+   
+        <div class="base"></div>
+        <div class="topbar"></div>
+        <div class="logo"></div>
+        <div class="link1"><a href="#">About</a></div>
+        <div class="link2"><a href="#">How it works</a></div>
+        <div class="link3"><a href="#">Contact</a></div>
+
+        <p class="heading">Subscribe to newsletter</p>
+        <p class="subheading">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+
+
+        <div class="inpbase"></div>
+        <form name="validation" action="writeDB.php" method="post"
+              onsubmit="return validateForm(document.validation.email); redirect()">
+
+
+            <label class="inpbase" for="email" id="email">E-mail</label>
+            <input type="text" class="inpbase" name="email">
+            <button type="submit" class="arrow" id="btn" name="submit" value="Submit"></button>
+
+        </form>
+
+        <div class="line"></div>
+
+
+        <div class="check"></div>
+        <div class="chkbase"></div>
+
+        <input class="checkmark" type="checkbox" id="checkb" name="ch" value="ch"/>
+
+        <p class="agree">I agree to terms of service</p>
+
+
+        <div class="line2"></div>
+
+
+        <div class="icobase1"></div>
+        <div class="socicons"></div>
+        <div class="icfacebook"></div>
+        <div class="icobase2"></div>
+        <div class="icinstagram"></div>
+        <div class="icobase3"></div>
+        <div class="ictwitter"></div>
+        <div class="icobase4"></div>
+        <div class="icyoutube"></div>
+   
+
+<script src="email-validation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,527 @@
+
+div.bgbase {
+    /* Base */
+
+
+    position: absolute;
+    width: 1240px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+
+    background: #C4C4C4;
+
+}
+
+div.bgimg {
+    position: absolute;
+    width: 1620px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+
+    background: url(image_summer.png);
+
+
+}
+
+div.base {
+    position: absolute;
+    width: 680px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+
+
+}
+
+
+/* Top bar */
+
+div.topbar {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 5px;
+    top: 5px;
+}
+
+/* logo_pineapple */
+div.logo {
+    position: absolute;
+    width: 118px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+
+    background: url("logo_pineapple.svg");
+}
+
+/* Union */
+
+div.union {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+
+    background: #4066A5;
+}
+
+/* pineapple. */
+
+div.pineapple {
+    position: absolute;
+    width: 78px;
+    height: 16px;
+    left: 140px;
+    top: 120px;
+
+    background: #131821;
+}
+
+/* Links */
+
+div.link1 {
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 331px;
+    top: 114px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #6A707B;
+}
+
+div.link2 {
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 403px;
+    top: 114px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+}
+
+div.link3 {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 524px;
+    top: 114px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    color: #6A707B;
+}
+
+p.heading {
+    /* Heading */
+
+
+ position: absolute;
+width: 400px;
+height: 44px;
+left: 140px;
+top: 369px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height, or 137% */
+
+
+color: #131821;
+}
+
+p.subheading {
+    /* Subheading */
+
+
+   position: absolute;
+width: 400px;
+height: 56px;
+left: 140px;
+top: 433px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #6A707B;
+}
+
+input.inpbase {
+    /* Base */
+
+
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+label.inpbase {
+    /* Base */
+
+
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+div.input {
+    /* Input */
+
+
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+}
+
+button.arrow {
+    /* ic_arrow */
+
+
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    left: 699px;
+    top: 567px;
+
+    color: #131821;
+    opacity: 0.3;
+    background-image : url("ic_arrow.svg");
+}
+
+textarea.placeholder {
+    /* Placeholder */
+
+
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 144px;
+    top: 562px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #6A707B;
+}
+
+div.line {
+    /* Line */
+
+
+    position: absolute;
+    width: 4px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+
+    background: #4066A5;
+}
+
+input.check {
+    /* TOS */
+
+
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 140px;
+    top: 662px;
+}
+
+input.checkmark {
+    /* Checkmark */
+
+
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 663px;
+}
+
+div.chkbase {
+    /* Base */
+
+
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 663px;
+
+    background: #4066A5;
+    border-radius: 3px;
+}
+
+p.agree {
+    /* I agree to terms of service */
+
+
+    position: absolute;
+    width: 359px;
+    height: 175%;
+    left: 181px;
+    top: 662px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+
+    color: #6A707B;
+
+}
+
+div.checkmark {
+    /* ic_checkmark */
+
+
+    position: absolute;
+    width: 14px;
+    height: 11px;
+    left: 146px;
+    top: 671px;
+
+    background: #FFFFFF;
+    background: url("ic_checkmark.svg");
+}
+
+div.line2 {
+    /* Line */
+
+
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+
+    background: #E3E3E4;
+}
+
+div.socicons {
+    /* Social icons */
+
+
+    position: absolute;
+    width: 244px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+}
+
+div.icobase1 {
+    /* Base */
+
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+div.icfacebook {
+    /* ic_facebook */
+
+
+    position: absolute;
+    left: 12.34%;
+    right: 32.24%;
+    top: 74.63%;
+    bottom: 23.89%;
+
+
+    background: #131821;
+    opacity: 0.3;
+
+  background-image:url("ic_facebook.svg");
+}
+
+div.icobase2 {
+    /* Base */
+
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 284px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+}
+
+div.icinstagram {
+    /* ic instagram */
+
+
+    position: absolute;
+    left: 15.57%;
+    right: 83.59%;
+    top: 74.63%;
+    bottom: 23.89%;
+
+    background: #131821;
+    opacity: 0.3;
+}
+
+div.icobase3 {
+    /* Base */
+
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 350px;
+    top: 791px;
+
+    border: 2px solid #E3E3E4;
+    box-sizing: border-box;
+
+}
+
+div.ictwitter {
+    /* ic_twitter */
+
+
+    position: absolute;
+    left: 19.01%;
+    right: 80.16%;
+    top: 74.81%;
+    bottom: 23.98%;
+
+    background: #131821;
+    opacity: 0.3;
+}
+
+div.icobase4 {
+    /* Base */
+
+
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 416px;
+    top: 791px;
+
+    border: 2px solid #E2E3E4;
+    box-sizing: border-box;
+}
+
+div.icyoutube {
+    /* ic youtube */
+
+
+    position: absolute;
+    left: 22.45%;
+    right: 76.72%;
+    top: 74.81%;
+    bottom: 24.17%;
+
+    background: #131821;
+    opacity: 0.3;
+}
+
+div.mobbase {
+    /* Base */
+
+
+    position: absolute;
+    width: 375px;
+    height: 746px;
+    left: 0px;
+    top: 66px;
+
+
+    background: #C4C4C4;
+}
+
+div.mobbgimg {
+    /* image_summer */
+
+
+    position: absolute;
+    width: 1119px;
+    height: 746px;
+    left: -281px;
+    top: 66px;
+
+    background: url(image_summer_mob.png);
+}
+
+/* Union */
+
+div.union_{
+position: absolute;
+width: 44px;
+height: 70px;
+left: 140px;
+top: 269px;
+
+
+background:url("ic_success.svg"); 
+}
+
+div.base_{
+    position: absolute;
+width: 244px;
+height: 46px;
+left: 218px;
+top: 590px;
+}
